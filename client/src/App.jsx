@@ -1,5 +1,6 @@
 import './App.css'
-import ListUser from './pages/admin/ListUser'
+import ListUsers from './pages/admin/ListUserr'
+
 // import ListProduct from './pages/product/ListProduct'
 
 function App() {
@@ -7,8 +8,7 @@ function App() {
   return (
     <>
       {/* <ListProduct /> */}
-
-      <ListUser />
+      <ListUsers/>
     </>
   )
 }
