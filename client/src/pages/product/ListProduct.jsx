@@ -27,7 +27,7 @@ export default function ListProduct() {
     /**
      * ham xoa thong tin mot product theo id
      * @param {*} id  id cua product can xoa
-     * Author: SONTRAN
+     * Author: nqhuy
      */
     const handleDelete = (id) => {
         fetch(`http://localhost:8000/products/${id}`, {
